@@ -14,14 +14,6 @@ class Boggle:
         self.return_words = set()
 
 
-    def __repr__(self):
-        """
-        Prints the Boggle board
-
-        :return: A string representation of the board
-        """
-        return '\n'.join([' '.join(row) for row in self.board])
-
 
     def load_dictionary(self, dictionary_file):
         """
