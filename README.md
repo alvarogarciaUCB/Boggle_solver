@@ -10,9 +10,14 @@ The rules of Boggle:
 ● No letter cube may be used more than once within a single word.
 
 Input file format example:
+
 3
+
 c j e
+
 e a o
+
 i t e
+
 
 The number signifies the N, in NxN grid and the rest of the N lines represent the grid.
